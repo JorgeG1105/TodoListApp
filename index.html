@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todolist Tracker</title>
+	<!--Required Meta Tags-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--Google Fonts (Gothic and Roboto) -->
+	<link href="https://fonts.googleapis.com/css?family=Gothic+A1:700|Roboto" rel="stylesheet">
+	<!--Reset.css-->
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<!--Font Awesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<!--Custom Styles-->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<input class="txt_field" type="text" placeholder="Enter a task..">
+		<button class="add_todo"><i class="fas fa-plus"></i></button>
+	</header>
+	<div class="container">
+		<h1 id="modSpace"></h1>
+
+		<!--Tasks not completed-->
+		<ul class="todosList"></ul>
+		
+		<h1 id="completedField">Here is what you've completed today:</h1>
+		<!--Tasks completed-->
+		<ul class="completedTodos"></ul>
+	</div>
+
+
+<!--Custom Scripts-->
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

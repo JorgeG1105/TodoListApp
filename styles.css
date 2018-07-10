@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	padding: 15px;
+	background: #2980b9;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	box-shadow: 0px 2px 4px rgba(44,62,80,0.15);
+}
+
+header input {
+	width: 100%;
+	height: 50px;
+	float: left;
+	border: 0px;
+	border-radius: 5px;
+	box-shadow: none;
+	background: #3498db;
+	color: white;
+	outline: none;
+	text-indent: 20px;
+	font-family: 'Roboto', sans-serif;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+}
+
+header button {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	z-index: 2;
+	border-radius: 25px;
+	background: #fff;
+	border: 0px;
+	box-shadow: none;
+	outline: none;
+	cursor: pointer;
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+}
+
+.fa-plus {
+	color: #2980b9;
+}
+
+::placeholder {
+	color: white;
+}
+
+#modSpace {
+	/*--This code will style the message of the day that appears right below the input and button--*/
+	font-family: 'Gothic A1', sans-serif;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+#completedField {
+	font-family: 'Gothic A1', sans-serif;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 5px;
+	margin-bottom: 20px;
+	padding-top: 100px;
+}
+/*--------------------------TODO SECTION---------------------------------*/
+
+body {
+	background-color: #EFF3F5;
+}
+
+.container {
+	width: 100%;
+	float: left;
+	padding: 15px;
+}
+
+.todosList {
+	width: 100%;
+	float: left;
+}
+
+.todo {
+	width: 100%;
+	min-height: 50px;
+	padding: 25px;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #E3E4E5;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 0 0 15px 0;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+}
+
+.buttons {
+	margin-left: 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 14px;
+	margin-right: 10px;
+}
+
+.check {
+	color: #67e579;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.trash {
+	color: #f01825;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.btn_divider {
+	font-size: 30px;
+}
+
+.done {
+	text-decoration: line-through;
+}
